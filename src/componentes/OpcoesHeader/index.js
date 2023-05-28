@@ -1,3 +1,7 @@
+import './estilo.css'
+
+const textoOpcoes = ['CATEGORIAS', 'FAVORITOS', 'MINHA ESTANTE' ]
+
 function OpcoesHeader() {
     return (
         <ul className='opcoes'>
@@ -7,3 +11,5 @@ function OpcoesHeader() {
         </ul>
     )
 }
+
+export default OpcoesHeader
